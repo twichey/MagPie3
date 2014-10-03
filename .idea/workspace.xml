@@ -26,6 +26,9 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="253" />
     <option name="y" value="17" />
@@ -250,7 +253,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="17" width="1400" height="1000" extended-state="0" />
+    <frame x="253" y="17" width="1400" height="1000" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
