@@ -70,6 +70,8 @@ public class Magpie3
 	 */
 	private int findKeyword(String statement, String goal,
 			int startPos)
+
+
 	{
 		String phrase = statement.trim();
 		// The only change to incorporate the startPos is in
@@ -168,5 +170,6 @@ public class Magpie3
 
 		return response;
 	}
+    findKeyword("She's my sister", "sister", 0);
 
 }
