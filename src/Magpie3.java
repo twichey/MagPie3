@@ -43,9 +43,19 @@ public class Magpie3
 				|| findKeyword(statement, "sister") >= 0
 				|| findKeyword(statement, "brother") >= 0)
 		{
-			response = "Tell me more about your family.";
-		}
-		else
+            response = "Tell me more about your family.";
+        }
+            else if (findKeyword(statement, "Mr. Tanzcos") >= 0)
+        {
+            response ="he sounds really cool";
+        }
+        else if (findKeyword(statement, "dog") >= 0
+                || findKeyword(statement, "cat") >= 0)
+        {
+            response = "tell me about your pets";
+        }
+
+        else
 		{
 			response = getRandomResponse();
 		}
@@ -170,6 +180,6 @@ public class Magpie3
 
 		return response;
 	}
-    findKeyword("She's my sister", "sister", 0);
+
 
 }
